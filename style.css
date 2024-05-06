@@ -13,12 +13,20 @@
   display: flex;
   /* text-align: left; */
   /* align-items: right; */
-  display: flex;
+  /* display: flex; */
   justify-content: space-between; /* Ensures the title and icon are at opposite ends */
   align-items: center; /* Aligns items vertically in the center */
  padding-right: 10px;
 
   
+}
+
+#certificate_c{
+  position: relative;
+  margin: 10px 1px 10px 1px;
+  /* size-adjust: 100%; */
+  /* margin: 3px; */
+  width: 100%;
 }
 .icon_c{
   cursor: pointer;
@@ -30,21 +38,63 @@
 }
 
 .footer_c{
-  height: 36vh;
+  /* height: 36vh; */
   /* margin: 0 1rem; */
+  /* bottom: 0;/ */
   padding: 50px;
   /* margin-top:15vh; */
+  /* background-color: #F2F7F2;
+  position: relative;
+  text-align: left;
+  height: 70vh;
+  width: 100%; */
+
+
+
+  font-family: "Poppins", sans-serif;
+  margin: 0 1rem;
+  padding: 50px;
   background-color: #F2F7F2;
   position: relative;
   text-align: left;
+  height: 70vh;
+  width: 90%;
+  padding-top: 89px;
+  top: 51px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-left: 0px;
+
 }
+
 .des{
  margin-top: 15vh;
 }
 
 .footer_c p{
   margin-bottom: 7px;
+
 }
+.details-container{
+  margin-bottom: 14px;
+}
+
+
+
+.board_for_certificate_c{
+
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+
+}
+
+
+
+
+
 
 
 
@@ -222,8 +272,14 @@ section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
+  margin-bottom: 100px;
   box-sizing: border-box;
   min-height: fit-content;
+  
+  /* change  */
+    top: 25px;
+
+  
 }
 
 .section-container {
@@ -339,12 +395,18 @@ section {
 
 #about {
   position: relative;
+  /* margin:10rem 0rem 5rem ; */
+
+  margin-top: 10rem;
+  top: 25px;
+
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 166px;
+  /* 166px */
 }
 
 .about-details-container {
@@ -355,6 +417,7 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  
 }
 
 .about-pic {
@@ -362,6 +425,7 @@ section {
 
   border-radius: 2rem;
   height: 380px;
+  margin-bottom: 5rem;
 }
 
 .arrow {
