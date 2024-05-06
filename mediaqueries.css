@@ -10,6 +10,11 @@
     #projects {
       height: fit-content;
     }
+     .about-containers{
+      margin-top: 169px;
+    }
+
+
   }
   
   @media screen and (max-width: 1200px) {
@@ -42,9 +47,17 @@
       height: 275px;
       margin: 0 auto 2rem;
     }
-    .about-containers {
+    /* .about-containers {
       margin-top: 0;
-    }
+    } */
+
+     .about-containers{
+      margin-top: 169px;
+    } 
+
+
+    
+
   }
   
   @media screen and (max-width: 600px) {
@@ -101,4 +114,12 @@
       text-align: justify;
       padding: 34rem;
     }
+
+
+
+     .about-containers{
+      margin-top: 169px;
+    }
+
+    
   }
